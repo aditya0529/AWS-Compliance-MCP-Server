@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+moto[config,securityhub,s3,iam,ec2,cloudtrail,guardduty]>=5.0.0
+
+# Linting
+ruff>=0.3.0
